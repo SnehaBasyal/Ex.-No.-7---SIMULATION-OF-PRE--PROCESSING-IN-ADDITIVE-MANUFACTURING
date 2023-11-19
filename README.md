@@ -39,14 +39,51 @@
 ### ●	If the user follows an incorrect sequence then a pop-up will appear on the screen showing the name of the process to be selected.
 
 ## OUTPUT:
-![123_1](https://github.com/Sellakumar1987/Ex.-No.-7---SIMULATION-OF-PRE--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/113594316/ec8dafd7-cb7c-4a5b-936c-41e86a32a9da)
-![123_2](https://github.com/Sellakumar1987/Ex.-No.-7---SIMULATION-OF-PRE--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/113594316/c071a941-e5b4-4b31-af63-5f9fe08cd0fb)
-![123_3](https://github.com/Sellakumar1987/Ex.-No.-7---SIMULATION-OF-PRE--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/113594316/ebb3a944-eeb0-45e8-9841-d58997840c54)
 
-## Output:
+## CAD file preparation:
 
-### Name:
-### Register Number:
+The first step in rapid prototyping is to prepare a computer-aided design (CAD) model of the object to be fabricated using layer based manufacturing processes.Once this process complete,the model is either converted or exported as STL file.
+
+![Ex.No.7-SIMULATION-OF-PRE-PROCESSING-IN-ADDITIVE-MANUFACTURING](empd71.png)
+<br>
+
+## Conversion to STL:
+
+STL file is also known standard tesstellation language in which model is represented as triangular patterns.It covers only the information about surface structure of the model not the internal features.on CAD software itself ,it process and convert CAD file into STL file.
+
+![Ex.No.7-SIMULATION-OF-PRE-PROCESSING-IN-ADDITIVE-MANUFACTURING](empd72.png)
+<br>
+
+## Orientation:
+
+In slicer software STL file is loaded .The object orientation is need to be check.without proper orientation ,time and excess material can be consumed.A proper orientation increase strength of the model .The model should be printed along the direction of force that going to withstand.
+
+![Ex.No.7-SIMULATION-OF-PRE-PROCESSING-IN-ADDITIVE-MANUFACTURING](empd73.png)
+<br>
+
+## Support structure:
+
+As we see before proper orientation need lesser support material .But at some places there might be need of support material which supports overhanging parts(ie.,angle above 45).However they need to be removed after printing.
+
+![Ex.No.7-SIMULATION-OF-PRE-PROCESSING-IN-ADDITIVE-MANUFACTURING](empd74.png)
+<br>
+
+## Slicing:
+
+slicing is converting digital 3D models into printing instructions for a given 3D printer to build an object. In addition to the model itself, the instructions contain user-entered 3D printing parameters, such as layer height, speed, and support structure settings.
+
+![Ex.No.7-SIMULATION-OF-PRE-PROCESSING-IN-ADDITIVE-MANUFACTURING](empd75.png)
+<br>
+
+## Path planning:
+
+The infill pattern determines the arrangement of the internal structure within the 3D printed object. Common infill patterns include rectilinear, honeycomb, grid, and concentric. Each pattern has its own characteristics in terms of strength, material usage, print time, and surface finish. The choice of infill pattern depends on the specific requirements of the printed object
+
+![Ex.No.7-SIMULATION-OF-PRE-PROCESSING-IN-ADDITIVE-MANUFACTURING](empd76.png)
+
+
+### Name: Sneha Basyal M
+### Register Number: 212222240101
 
 ## Result: 
 ### Thus the simulation on the Preprocessing in additive manufacturing is completed.
