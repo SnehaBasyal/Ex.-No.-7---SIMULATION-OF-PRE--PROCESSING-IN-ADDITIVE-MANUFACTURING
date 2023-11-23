@@ -40,47 +40,10 @@
 
 ## OUTPUT:
 
-## CAD file preparation:
-
-The first step in rapid prototyping is to prepare a computer-aided design (CAD) model of the object to be fabricated using layer based manufacturing processes.Once this process complete,the model is either converted or exported as STL file.
-
-![Ex.No.7-SIMULATION-OF-PRE-PROCESSING-IN-ADDITIVE-MANUFACTURING](empd71.png)
-<br>
-
-## Conversion to STL:
-
-STL file is also known standard tesstellation language in which model is represented as triangular patterns.It covers only the information about surface structure of the model not the internal features.on CAD software itself ,it process and convert CAD file into STL file.
-
-![Ex.No.7-SIMULATION-OF-PRE-PROCESSING-IN-ADDITIVE-MANUFACTURING](empd72.png)
-<br>
-
-## Orientation:
-
-In slicer software STL file is loaded .The object orientation is need to be check.without proper orientation ,time and excess material can be consumed.A proper orientation increase strength of the model .The model should be printed along the direction of force that going to withstand.
-
-![Ex.No.7-SIMULATION-OF-PRE-PROCESSING-IN-ADDITIVE-MANUFACTURING](empd73.png)
-<br>
-
-## Support structure:
-
-As we see before proper orientation need lesser support material .But at some places there might be need of support material which supports overhanging parts(ie.,angle above 45).However they need to be removed after printing.
-
-![Ex.No.7-SIMULATION-OF-PRE-PROCESSING-IN-ADDITIVE-MANUFACTURING](empd74.png)
-<br>
-
-## Slicing:
-
-slicing is converting digital 3D models into printing instructions for a given 3D printer to build an object. In addition to the model itself, the instructions contain user-entered 3D printing parameters, such as layer height, speed, and support structure settings.
-
-![Ex.No.7-SIMULATION-OF-PRE-PROCESSING-IN-ADDITIVE-MANUFACTURING](empd75.png)
-<br>
-
-## Path planning:
-
-The infill pattern determines the arrangement of the internal structure within the 3D printed object. Common infill patterns include rectilinear, honeycomb, grid, and concentric. Each pattern has its own characteristics in terms of strength, material usage, print time, and surface finish. The choice of infill pattern depends on the specific requirements of the printed object
-
-![Ex.No.7-SIMULATION-OF-PRE-PROCESSING-IN-ADDITIVE-MANUFACTURING](empd76.png)
-
+![284585570-0580c855-bc80-4543-a7b0-343a0d9f5c14](https://github.com/SnehaBasyal/Ex.-No.-7---SIMULATION-OF-PRE--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/119390146/30aeb5c4-3898-49c6-a186-628e3ba3188e)
+![284585711-105ac348-fa74-4cc4-9b29-e00713fa60c6](https://github.com/SnehaBasyal/Ex.-No.-7---SIMULATION-OF-PRE--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/119390146/73b48750-f130-47f7-a237-6de90b80f979)
+![284585770-3661b2a4-723a-4498-b94f-5d2f22b44f43](https://github.com/SnehaBasyal/Ex.-No.-7---SIMULATION-OF-PRE--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/119390146/e370a8cb-aa5a-4b8a-a85c-72a16b08ff4c)
+![284585933-34cef54f-9f42-4e04-bb1b-001faf8a22c0](https://github.com/SnehaBasyal/Ex.-No.-7---SIMULATION-OF-PRE--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/119390146/cfc9dd15-d05b-4a8f-be08-440c5b9b9524)
 
 ### Name: Sneha Basyal M
 ### Register Number: 212222240101
